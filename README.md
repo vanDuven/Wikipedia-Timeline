@@ -12,7 +12,7 @@ Script with user input to extract wikipedia infoboxes and links from a wikipedia
 
 * [timeline.py](timeline.py):
 
-Thinker script to extract dates (
+Tkinter script to extract dates (
 by using finddate.<n></n>py) from the created json file 
 (by using wikitojson.<n></n>py) and visualise it on a created timeline. Can also try to search dates in the text itself (from the xml file or url), which is useful if a page has no infobox.
 
