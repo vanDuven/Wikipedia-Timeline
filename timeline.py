@@ -2007,7 +2007,7 @@ class mainwin(tk.Frame):
                         (fin_res_list[i]['spec'][0] != None or fin_res_list[i]['spec'][1] != None):
                             fin_res_list_index.append(i+1)
 
-                fin_res_list_index = set(fin_res_list_index)
+                fin_res_list_index = sorted(set(fin_res_list_index),reverse=True)
                 if len(fin_res_list) - len(fin_res_list_index) >= 3:
                     for i in fin_res_list_index:
                         del fin_res_list[i]
